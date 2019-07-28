@@ -1,6 +1,6 @@
 [package]
 name = "cargo-jdi"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Srikanth Suresh <4140019+srikwit@users.noreply.github.com>"]
 edition = "2018"
 description = "A tool to help developers fight with the Rust compiler"
