@@ -3,6 +3,8 @@ name = "cargo-jdi"
 version = "0.1.0"
 authors = ["Srikanth Suresh <4140019+srikwit@users.noreply.github.com>"]
 edition = "2018"
+description = "A tool to help developers fight with the Rust compiler"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
