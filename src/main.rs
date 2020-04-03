@@ -14,8 +14,9 @@ fn main() {
     "Yesterday you said tomorrow"
 ];
     let mut rng = rand::thread_rng();
-    match motivate.is_empty() {
-        true => println!("Out of Energy!"),
-        false => println!("{}", motivate[rng.gen_range(0, motivate.len())]),
+    if motivate.is_empty() {
+        println!("Out of Energy!");
+    } else {
+        println!("{}", motivate[rng.gen_range(0, motivate.len())]);
     }
 }
